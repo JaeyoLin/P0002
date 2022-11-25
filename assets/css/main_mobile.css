@@ -1,10 +1,18 @@
 @media only screen and (max-width: 576px) {
-    .ad_box {
+    .flex_column_reverse {
         flex-direction: column-reverse;
     }
-    .ad_image_box {
-        height: 330px;
+    .flex_column {
+        flex-direction: column;
+    }
+    .content_wrapper_left {
         margin: 20px auto;
         align-items: center;
+    }
+    .ad_images_box {
+        height: 330px;
+    }
+    .content_wrapper_right {
+        margin: unset;
     }
 }

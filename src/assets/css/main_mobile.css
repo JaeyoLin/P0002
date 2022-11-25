@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576px) {
+    .ad_box {
+        flex-direction: column-reverse;
+    }
+    .ad_image_box {
+        height: 330px;
+        margin: 20px auto;
+        align-items: center;
+    }
+}

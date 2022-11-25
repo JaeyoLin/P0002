@@ -224,3 +224,20 @@ body {
     text-align: left;
     text-transform: uppercase;
 }
+.jumbotron.jumbotron-transparent {
+    background: 0 0;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.jumbotron.jumbotron-small {
+    padding: 24px 30px 26px;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    padding: 24px 30px 12px;
+}

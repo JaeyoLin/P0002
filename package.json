@@ -1,0 +1,22 @@
+{
+  "name": "p0002",
+  "version": "1.0.0",
+  "description": "- [Live DMEO 1](https://jaeyolin.github.io/P0002)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaeyoLin/P0002.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaeyoLin/P0002/issues"
+  },
+  "homepage": "https://github.com/JaeyoLin/P0002#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

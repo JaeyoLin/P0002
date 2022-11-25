@@ -183,3 +183,44 @@ body {
     top: 8px;
     left: 8px;
 }
+.background-dark {
+    background-color: #101010!important;
+}
+#footer {
+    clear: both;
+    position: relative;
+    color: #FFFFFF;
+}
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-content {
+    padding: 40px 0;
+}
+.copyright-content {
+    border-top: 1px solid rgba(255,255,255,.1);
+    min-height: 80px;
+    padding: 20px 0;
+}
+.footer-content .widget-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+}
+.list, .list-lines, .list-icons, .list-simple, .list-posts, .list-tweets li {
+    list-style: none;
+}
+.list-arrow-icons li:before {
+    margin-left: -18px;
+    position: absolute;
+    font-family: fontawesome;
+    content: "\f105";
+}
+.copyright-text {
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}

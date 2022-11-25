@@ -1,4 +1,6 @@
-
+body {
+    font-family: 微軟正黑體,microsoft jhenghei,Meiryo;
+}
 .mainContainer {
     display: flex;
     flex-flow: column nowrap;
@@ -33,11 +35,11 @@
     padding-top: 10px;
     background-color: #C60A05;
 }
-.ad_box {
+.content_wrapper {
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
 }
-.ad_image_box {
+.content_wrapper_left {
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -45,27 +47,93 @@
     justify-content: space-between;
     flex-direction: column;
 }
-.ad_slide_box {
+.content_wrapper_right {
     flex: 2;
     max-width: 800px;
+    margin: 0 auto;
 }
 .slideImageWrapper div.slideimg {
-    width: 400px;
+    /* width: 400px; */
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center
 }
 .slideImageWrapper div.slide1 {
-    background-image: url("https://dummyimage.com/400x200/e5e4df/000000.png&text=ad1");
+    background-image: url("https://dummyimage.com/400x200/7878FF/000000.png&text=ad1");
 }
 .slideImageWrapper div.slide2 {
-    background-image: url("https://dummyimage.com/400x200/a29c7a/ffffff.png&text=ad2");
+    background-image: url("https://dummyimage.com/400x200/00D100/000000.png&text=ad2");
 }
 .slideImageWrapper div.slide3 {
-    background-image: url("https://dummyimage.com/400x200/28251c/ffffff.png&text=ad3");
+    background-image: url("https://dummyimage.com/400x200/FFB630/000000.png&text=ad3");
 }
 .ad_message {
     font-size: 20px;
     font-weight: bold;
+}
+.nav-item {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-link {
+    color: #000000;
+}
+.nav-link:hover {
+    color: #C60A05;
+}
+.money_box {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    height: 190px;
+    padding: 24px 30px 26px;
+}
+.money_box h3 {
+    color: #3b5998;
+}
+.money_box p {
+    font-size: 12px;
+    color: #696f6f;
+}
+.lend_money_btn {
+    width: 200px;
+    height: 55px;
+    background-color: #ffec00;
+    border-color: #e6d500;
+    color: #333;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+}
+.lend_money_btn:hover {
+    box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
+}
+
+.start_ad_btn {
+    width: 200px;
+    height: 55px;
+    background-color: #40c0cb;
+    border-color: #3eb5bf;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+}
+.start_ad_btn:hover {
+    box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
 }

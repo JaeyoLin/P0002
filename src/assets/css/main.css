@@ -73,7 +73,7 @@ body {
     font-weight: bold;
 }
 .nav-item {
-    width: 100px;
+    min-width: 100px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -99,7 +99,7 @@ body {
     color: #696f6f;
 }
 .lend_money_btn {
-    width: 200px;
+    /* max-width: 200px; */
     height: 55px;
     background-color: #ffec00;
     border-color: #e6d500;
@@ -119,7 +119,7 @@ body {
 }
 
 .start_ad_btn {
-    width: 200px;
+    /* max-width: 200px; */
     height: 55px;
     background-color: #40c0cb;
     border-color: #3eb5bf;

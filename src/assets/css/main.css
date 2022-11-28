@@ -242,3 +242,32 @@ body {
     overflow: hidden;
     padding: 24px 30px 12px;
 }
+.load_money_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.load_money_sucess {
+    border-radius: 2px;
+    background-color: #5cb85c;
+    color: #FFFFFF;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-right: 10px;
+}
+.load_money_item_title {
+    text-rendering: optimizelegibility;
+    margin-top: 0;
+    color: #3b5998;
+    font-family: 微軟正黑體,microsoft jhenghei,Meiryo;
+    font-size: 18px;
+}

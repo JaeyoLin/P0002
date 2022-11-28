@@ -44,25 +44,33 @@
                     <button class="navbar-toggler btn-sm btn_menu" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <div class="btn_menu_box">
                             <span class="navbar-toggler-icon btn-sm" style="width: 25px;"></span>
-                            <span class="btn_menu_text" data-i18n="btn_menu">選單</span>
+                            <span class="btn_menu_text" data-i18n="btn_menu"></span>
                         </div>
                     </button>
 
                     <div class="collapse navbar-collapse" id="mynavbar">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="" class="nav-link"><span data-i18n="">選單選單</span></a>
+                            <li class="nav-item" style="min-width: 50px;">
+                                <a href="./index.html" class="nav-link"><i class="fa-solid fa-house"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link"><span data-i18n="">選單選單</span></a>
+                                <a href="" class="nav-link"><span data-i18n="menu_tab1"></span></a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link"><span data-i18n="">選單選單</span></a>
+                                <a href="" class="nav-link"><span data-i18n="menu_tab2"></span></a>
                             </li>
                             <li class="nav-item">
-                                <a href="./register.html" class="nav-link"><span data-i18n="">選單選單</span></a>
+                                <a href="" class="nav-link"><span data-i18n="menu_tab3"></span></a>
                             </li>
-                            
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><span data-i18n="menu_tab4"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./register.html" class="nav-link"><span data-i18n="menu_tab5"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><span data-i18n="menu_tab6"></span></a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" aria-haspopup="true" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span data-i18n="language">Language</span>
@@ -84,7 +92,7 @@
             <div class='container'>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item" style="color: #FFFFFF;"><a href="#" style="color: #FFFFFF; text-decoration: none;">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="color: #FFFFFF;">Library</li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: #FFFFFF;">XXXX</li>
                 </ol>
             </div>
         </nav>
@@ -128,19 +136,19 @@
             <div class="content_wrapper flex_column">
                 <div class="content_wrapper_left">
                     <div class="money_box">
-                        <h3>我要借錢</h3>
-                        <p>免費透過11139多位金主，快速借現金、融資周轉、小額借款、臨時救急、多元化借錢管道。隨時可關閉或移除。</p>
-                        <div class="lend_money_btn"><i class="fa-regular fa-money-bill-1" style="margin-top: 2px; margin-right: 10px;"></i>開始借錢</div>
+                        <h3><span data-i18n="load_money_title"></span></h3>
+                        <p><span data-i18n="load_money_des"></span></p>
+                        <div class="lend_money_btn"><i class="fa-regular fa-money-bill-1" style="margin-top: 2px; margin-right: 10px;"></i><span data-i18n="load_money_start"></span></div>
                     </div>
                     <div class="money_box">
-                        <h3>我是金主</h3>
-                        <p>刊登放款廣告，單月最多3千多筆公開新需求等您滿足:適合銀行代辦代書、融資租賃公司、當鋪、民間金主等。</p>
-                        <div class="start_ad_btn"><i class="fa-solid fa-cloud" style="margin-top: 2px; margin-right: 10px;"></i>開始廣告</div>
+                        <h3><span data-i18n="money_owner_title"></span></h3>
+                        <p><span data-i18n="money_owner_des"></span></p>
+                        <div class="start_ad_btn"><i class="fa-solid fa-cloud" style="margin-top: 2px; margin-right: 10px;"></i><span data-i18n="money_owner_start"></span></div>
                     </div>
                 </div>
                 <div class="content_wrapper_right">
                     <div>
-                        <h4 class="widget-title">快速搜尋</h4>
+                        <h4 class="widget_title"><span data-i18n="quick_search"></span></h4>
 
                         <!-- Search Loader -->
                         <div id="search_tags_loader" class="widget_search_box" style="display: none;">
@@ -168,7 +176,77 @@
             </div>
         </div>
 
+        <!-- Go to top -->
         <a href="#" class="back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
+
+        <!-- Footer -->
+        <footer id="footer" class="background-dark text-grey">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="widget clearfix widget-categories">
+                                <h4 class="widget-title"><span data-i18n="footer_loan_title"></span></h4>
+                                <ul class="list list-arrow-icons">
+                                    <li><span data-i18n="footer_loan_list1"></span></li>
+                                    <li><span data-i18n="footer_loan_list2"></span></li>
+                                    <li><span data-i18n="footer_loan_list3"></span></li>
+                                    <li><span data-i18n="footer_loan_list4"></span></li>
+                                    <li><span data-i18n="footer_loan_list5"></span></li>
+                                    <li><span data-i18n="footer_loan_list6"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="widget-title"><span data-i18n="footer_loan_sample_title"></span></h4>
+                            <p style="margin-top: 12px;"><span data-i18n="footer_loan_sample_des"></span></p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="widget clearfix widget-categories">
+                                <h4 class="widget-title"><span data-i18n="footer_loan_fraud_title"></span></h4>
+                                <ul class="list list-arrow-icons">
+                                    <li><span data-i18n="footer_loan_fraud_list1"></span></li>
+                                    <li><span data-i18n="footer_loan_fraud_list2"></span></li>
+                                    <li><span data-i18n="footer_loan_fraud_list3"></span></li>
+                                    <li><span data-i18n="footer_loan_fraud_list4"></span></li>
+                                    <li><span data-i18n="footer_loan_fraud_list5"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="jumbotron jumbotron-small jumbotron-transparent">
+                                <h5><span data-i18n="footer_meno"></span></h5>
+                                <ul class="list list-icons">
+                                    <li><i class="fa fa-envelope"></i> <a rel="nofollow" href=""><span data-i18n="footer_email"></span></a></li>
+                                    <li><i class="fa fa-map"></i><span data-i18n="footer_address"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="copyright-text text-center">
+                            <p>
+                                <a rel="nofollow" href=""><span data-i18n="footer_link1"></span></a> |
+                                <a href="" rel="nofollow"><span data-i18n="footer_link2"></span></a> | 
+                                <a href=""><span data-i18n="footer_link3"></span></a> | 
+                                <a href=""><span data-i18n="footer_link4"></span></a> | 
+                                <a rel="nofollow" href=""><span data-i18n="footer_link5"></span></a> | 
+                                <a rel="nofollow" href=""><span data-i18n="footer_link6"></span></a> | 
+                                <a rel="nofollow" href=""><span data-i18n="footer_link7"></span></a> | 
+                                <a rel="nofollow" href=""><span data-i18n="footer_link8"></span></a>
+                            </p>
+                        </div>
+                        <div class="copyright-text text-center">
+                            <p><span data-i18n="footer_copyright"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

@@ -12,6 +12,9 @@ $(function() {
   // Search Tags 初始化
   searchTagsInit();
 
+  // Money Requirements 初始化
+  moneyRequirementInit();
+
   // Register Validate Init
   // registerValidateInit();
 
@@ -233,5 +236,79 @@ function searchTagsInit() {
 
     closeLoader('search_tags_loader');
     $('#search_tags_container').show();
+  }, 2000);
+}
+
+/**
+ * moneyRequirementInit 
+ * Money Requirements 初始化
+ * 
+ */
+function moneyRequirementInit() {
+  openLoader('money_requirement_loader');
+
+  setTimeout(() => {
+    var tmpHtml = '';
+    var responseData = [
+      {
+        isSuccess: true,
+        title: "個人資金周轉",
+        lineID: "xxxx",
+        name: "xxxx",
+        money: "100",
+        type: "本金",
+        place: "台北",
+        time: "一小時前",
+      },
+      {
+        isSuccess: false,
+        title: "個人資金周轉1111",
+        lineID: "xxxx",
+        name: "xxxx",
+        money: "10012",
+        type: "本金",
+        place: "台北",
+        time: "兩小時前",
+      },
+      {
+        isSuccess: true,
+        title: "個人資金周轉11112222",
+        lineID: "xxxx",
+        name: "xxxx",
+        money: "10012",
+        type: "本金",
+        place: "高雄",
+        time: "兩小時前",
+      },
+    ];
+
+    responseData.forEach(function(issue) {
+      tmpHtml = tmpHtml + '<div class="load_money_item">';
+      tmpHtml = tmpHtml + '  <div class="">';
+      if (issue.isSuccess) {
+        tmpHtml = tmpHtml + '<div class="load_money_sucess">借錢成功</div>';
+      }
+      tmpHtml = tmpHtml + '<span class="load_money_item_title">' + issue.title + '</span>';
+      tmpHtml = tmpHtml + '  </div>';
+      tmpHtml = tmpHtml + '  <div class="">';
+      tmpHtml = tmpHtml + '    <i class="fa-solid fa-user"></i>';
+      tmpHtml = tmpHtml + '    <i class="fa-brands fa-line fa-xl" style="color: #00C200; margin-right: 5px;"></i>';
+      tmpHtml = tmpHtml + '    <span style="margin-right">' + issue.name + '</span>';
+      tmpHtml = tmpHtml + '    <i class="fa-solid fa-dollar-sign" style="margin-right: 5px;"></i>';
+      tmpHtml = tmpHtml + '    <span style="margin-right">' + issue.money + '</span>';
+      tmpHtml = tmpHtml + '    <i class="fa-solid fa-shield-halved" style="margin-right: 5px;"></i>';
+      tmpHtml = tmpHtml + '    <span style="margin-right">' + issue.type + '</span>';
+      tmpHtml = tmpHtml + '    <i class="fa-solid fa-map-pin" style="margin-right: 5px;"></i>';
+      tmpHtml = tmpHtml + '    <span style="margin-right">' + issue.place + '</span>';
+      tmpHtml = tmpHtml + '    <i class="" style="margin-right: 5px;"></i>';
+      tmpHtml = tmpHtml + '    <span style="margin-right">' + issue.time + '</span>';
+      tmpHtml = tmpHtml + '  </div>';
+      tmpHtml = tmpHtml + '</div>';
+    });
+
+    $('#money_requirement_container').html(tmpHtml);
+
+    closeLoader('money_requirement_loader');
+    $('#money_requirement_container').show();
   }, 2000);
 }

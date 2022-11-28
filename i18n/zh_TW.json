@@ -11,7 +11,6 @@
   "menu_tab4": "借錢需求",
   "menu_tab5": "註冊會員",
   "menu_tab6": "會員登入",
-
   "load_money_title": "我要借錢",
   "load_money_des": "免費透過11139多位金主，快速借現金、融資周轉、小額借款、臨時救急、多元化借錢管道。隨時可關閉或移除。",
   "load_money_start": "開始借錢",
@@ -20,7 +19,6 @@
   "money_owner_start": "開始廣告",
   "quick_search": "快速搜尋",
   "money_requirement": "借錢需求",
-
   "footer_loan_title": "借款條件須知:",
   "footer_loan_list1": "還款期限:最短120天，最長10年",
   "footer_loan_list2": "申請費用:無手續費、無代辦費",
@@ -28,21 +26,17 @@
   "footer_loan_list4": "年齡:須年滿20歲以上",
   "footer_loan_list5": "職業:不限行業，無業亦可",
   "footer_loan_list6": "地區:限台灣",
-
   "footer_loan_sample_title": "借貸範例",
   "footer_loan_sample_des": "在500大公司上班超過一年，信用正常的王先生想要快速借3萬元現金，張貼借錢需求後，從多位金主提供的方案中，就近選了汽車貸款方案，當日撥款3萬元，分期6個月，無事先收取手續費及代辦費等任何費用，月利息450，年利息5400。",
-
   "footer_loan_fraud_title": "防範貸款詐騙",
   "footer_loan_fraud_list1": "請不要給予銀行存摺及提款卡，以免成為詐騙集團的共犯。",
   "footer_loan_fraud_list2": "任何類型儲值點數換現金都是詐騙",
   "footer_loan_fraud_list3": "事先給付任何名義費用都是詐騙",
   "footer_loan_fraud_list4": "請不要提供門號或手機驗證碼",
   "footer_loan_fraud_list5": "請勿理會號稱來自易借網官方人員要你貸款的，易借網只有經營廣告",
-
   "footer_meno": "易借網僅提供本借貸平台服務。相關借貸廣告/需求，皆為各會員自行維護，借貸請洽各網頁資料所屬會員。",
   "footer_email": "xxx@xxxxx.com.tw",
   "footer_address": "台北市信義區xxxx1-8號",
-
   "footer_link1": "VIP的優勢",
   "footer_link2": "VIP廣告價格",
   "footer_link3": "常見問題",
@@ -51,5 +45,15 @@
   "footer_link6": "使用條款",
   "footer_link7": "反詐騙公告",
   "footer_link8": "聯絡我們",
-  "footer_copyright": "2022 ® 註冊商標仿冒必究"
+  "footer_copyright": "2022 ® 註冊商標仿冒必究",
+
+  "i_load_money": "我要借錢",
+  "i_load_money_des": "免費註冊後您可以隨時登入，關閉或新增借錢需求。",
+  "register_des": "免費加入後，將自動為您建立借錢需求，至少50~200個以上金主將會瀏覽您的需求，讓資金自動上門，借錢超容易!",
+  "register_title_1": "我是金主，不是借客",
+  "register_title_1_des": "如果您是金主，要張貼借出廣告，找借錢客戶，請改由下方連結註冊。",
+  "free_register": "免費註冊金主",
+  "have_account": "我已經有帳號",
+  "have_account_des": "如果您已經有會員帳號，請由下方連結登入。",
+  "login_member": "登入會員"
 }

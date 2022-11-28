@@ -271,3 +271,79 @@ body {
     font-family: 微軟正黑體,microsoft jhenghei,Meiryo;
     font-size: 18px;
 }
+.btn_i_load_money {
+    background-color: #f0ad4e;
+    color: #FFFFFF;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.i_load_money_des {
+    color: #696f6f;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.register_des {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    color: #3b5998;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.register_title_1 {
+    font-size: 24px;
+    color: #3b5998;
+    margin-bottom: 15px;
+}
+.register_title_1_des {
+    color: #696f6f;
+}
+.btn_register {
+    width: 200px;
+    height: 55px;
+    background-color: #40c0cb;
+    border-color: #3eb5bf;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+}
+.btn_register:hover {
+    box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
+}
+.btn_login {
+    width: 200px;
+    height: 55px;
+    background-color: #41a5db;
+    border-color: ##3ca0d6;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+}
+.btn_login:hover {
+    box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
+}

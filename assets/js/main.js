@@ -16,7 +16,7 @@ $(function() {
   moneyRequirementInit();
 
   // Register Validate Init
-  // registerValidateInit();
+  registerValidateInit();
 
   $('.slideImageWrapper').slick({
     dots: false,
@@ -111,64 +111,6 @@ function goToTopInit() {
     }, 500, 'easeInOutExpo');
     return false;
   });
-}
-
-/**
- * registerValidateInit
- * Register Validate Init
- * 
- */
- function registerValidateInit() {
-  var config = {
-    // lang: 'vi',
-    rules: {
-      account: "required",
-      password: {
-        required: true,
-        minlength: 8
-      },
-      confirm_password: {
-        required: true,
-        minlength: 8,
-        equalTo: "#password"
-      },
-      email: {
-        required: true,
-        email: true
-      },
-      mobile_phone: {
-        required: true
-        // required: true,
-        // number: true
-      },
-      invitation_code: "required"
-    },
-    // messages: {
-    //   mobile_phone: {
-    //     number: $.i18n('browser_recommendation'),
-    //   }
-    // },
-    submitHandler: function(form){
-      // form.submit();
-      console.log('TODO', 'Register');
-    }
-  };
-  
-  if ($("#registerForm").exists()) {
-    var validator = $("#registerForm").validate(config);
-
-    $("#btn_register").click(function() {
-      $('#account').val(null);
-      $('#password').val(null);
-      $('#confirm_password').val(null);
-      $('#email').val(null);
-      $('#mobile_phone').val(null);
-      $('#invitation_code').val(null);
-      
-      validator.resetForm();
-      $(".error").removeClass("error");
-    });
-  }
 }
 
 /**
@@ -311,4 +253,54 @@ function moneyRequirementInit() {
     closeLoader('money_requirement_loader');
     $('#money_requirement_container').show();
   }, 2000);
+}
+
+/**
+ * registerValidateInit
+ * Register Validate Init
+ * 
+ */
+ function registerValidateInit() {
+  var config = {
+    errorPlacement: function(error, element) {
+			// Append error within linked label
+			$( element )
+				.closest( "form" )
+        .find( "div[id='" + element.attr( "id" ) + "_box']" )
+					// .find( "label[for='" + element.attr( "id" ) + "']" )
+						.append( error );
+		},
+    // errorElement: "div",
+    // lang: 'vi',
+    rules: {
+      account: {
+        required: true,
+        email: true,
+      },
+      password: {
+        required: true,
+        minlength: 8,
+      },
+      nickname: {
+        required: true,
+      },
+      mobile_phone: {
+        required: true,
+      },
+      load_money: {
+        required: true,
+        number: true,
+      },
+    },
+    submitHandler: function(form) {
+      console.log('TODO', 'Register');
+    }
+  };
+
+  if ($("#registerForm").exists()) {
+    var validator = $("#registerForm").validate(config);
+
+    validator.resetForm();
+    $(".error").removeClass("error");
+  }
 }

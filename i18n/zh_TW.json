@@ -4,7 +4,6 @@
   "browser_recommendation": "瀏覽器建議",
   "sign_up": "註冊",
   "language": "語系",
-
   "menu_tab1": "我要借錢",
   "menu_tab2": "我要放款",
   "menu_tab3": "借出廣告",
@@ -46,7 +45,6 @@
   "footer_link7": "反詐騙公告",
   "footer_link8": "聯絡我們",
   "footer_copyright": "2022 ® 註冊商標仿冒必究",
-
   "i_load_money": "我要借錢",
   "i_load_money_des": "免費註冊後您可以隨時登入，關閉或新增借錢需求。",
   "register_des": "免費加入後，將自動為您建立借錢需求，至少50~200個以上金主將會瀏覽您的需求，讓資金自動上門，借錢超容易!",
@@ -55,5 +53,15 @@
   "free_register": "免費註冊金主",
   "have_account": "我已經有帳號",
   "have_account_des": "如果您已經有會員帳號，請由下方連結登入。",
-  "login_member": "登入會員"
+  "login_member": "登入會員",
+  "account": "登入帳號 EMAIL",
+  "password": "密碼",
+  "nickname": "顯示暱稱",
+  "mobile_phone": "台灣手機號碼",
+  "load_money": "想要借錢金額",
+  "region": "地區",
+  "lineId": "LINE",
+  "moneyUse": "資金用途",
+  "register_check_1": "我已閱讀並同意 使用條款",
+  "register_check_2": "我知道易借網只有經營平台廣告，任何號稱是[易借]或[易借網]人員的電話或LINE通知我借款的都是詐騙。詳見 FAQ"
 }

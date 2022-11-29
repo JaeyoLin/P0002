@@ -262,6 +262,15 @@ function moneyRequirementInit() {
  */
  function registerValidateInit() {
   var config = {
+    errorPlacement: function(error, element) {
+			// Append error within linked label
+			$( element )
+				.closest( "form" )
+        .find( "div[id='" + element.attr( "id" ) + "_box']" )
+					// .find( "label[for='" + element.attr( "id" ) + "']" )
+						.append( error );
+		},
+    // errorElement: "div",
     // lang: 'vi',
     rules: {
       account: {

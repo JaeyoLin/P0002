@@ -108,15 +108,16 @@
                     <form id="registerForm" class="needs-validation" novalidate>
                         
                         <div class="row g-3">
-                            <div class="col-12">
-                                <label for="username" class="form-label" data-i18n="account"></label>
+                            
+                            <div id="account_box" class="col-12">
+                                <label for="account" class="form-label" data-i18n="account"></label>
                                 <div class="input-group has-validation">
                                   <span class="input-group-text"><i class="fa-solid fa-at"></i></span>
-                                  <input type="text" class="form-control" id="account" name="account" >
+                                  <input type="text" class="form-control" id="account" name="account">
                                 </div>
-                              </div>
+                            </div>
 
-                            <div class="col-12">
+                            <div id="password_box" class="col-12">
                                 <label for="password" class="mb-1" data-i18n="password"></label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text"><i class="fa-solid fa-key"></i></span>
@@ -124,7 +125,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div id="nickname_box" class="col-12">
                                 <label for="nickname" class="mb-1" data-i18n="nickname"></label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
@@ -132,7 +133,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div id="mobile_phone_box" class="col-12">
                                 <label for="mobile_phone" class="mb-1" data-i18n="mobile_phone"></label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text"><i class="fa-solid fa-mobile-screen"></i></span>
@@ -140,7 +141,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div id="load_money_box" class="col-12">
                                 <label for="load_money" class="mb-1" data-i18n="load_money"></label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text"><i class="fa-solid fa-dollar-sign"></i></span>

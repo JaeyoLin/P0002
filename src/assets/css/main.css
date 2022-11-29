@@ -304,6 +304,7 @@ body {
 .register_title_1 {
     font-size: 24px;
     color: #3b5998;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 .register_title_1_des {
@@ -332,7 +333,7 @@ body {
     width: 200px;
     height: 55px;
     background-color: #41a5db;
-    border-color: ##3ca0d6;
+    border-color: #3ca0d6;
     color: #FFFFFF;
     border-radius: 3px;
     margin: 0 auto;
@@ -346,4 +347,29 @@ body {
 }
 .btn_login:hover {
     box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
+}
+.register_btn {
+    max-width: 200px;
+    height: 55px;
+    background-color: #ffec00;
+    border-color: #e6d500;
+    color: #333;
+    border-radius: 3px;
+    
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+}
+.register_btn:hover {
+    box-shadow: 0 -3px rgb(0 0 0 / 20%) inset;
+}
+input.error { 
+    border: 1px solid #FF0000; 
+}
+label.error {
+    color: #FF0000;
 }

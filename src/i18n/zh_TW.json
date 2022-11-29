@@ -55,5 +55,15 @@
   "free_register": "免費註冊金主",
   "have_account": "我已經有帳號",
   "have_account_des": "如果您已經有會員帳號，請由下方連結登入。",
-  "login_member": "登入會員"
+  "login_member": "登入會員",
+  "account": "登入帳號 EMAIL",
+  "password": "密碼",
+  "nickname": "顯示暱稱",
+  "mobile_phone": "台灣手機號碼",
+  "load_money": "想要借錢金額",
+  "region": "地區",
+  "lineId": "LINE",
+  "moneyUse": "資金用途",
+  "register_check_1": "我已閱讀並同意 使用條款",
+  "register_check_2": "我知道易借網只有經營平台廣告，任何號稱是[易借]或[易借網]人員的電話或LINE通知我借款的都是詐騙。詳見 FAQ"
 }

@@ -283,7 +283,6 @@ function moneyRequirementInit() {
       },
       nickname: {
         required: true,
-        minlength: 8,
       },
       mobile_phone: {
         required: true,

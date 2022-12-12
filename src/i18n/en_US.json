@@ -63,5 +63,14 @@
   "lineId": "en LINE",
   "moneyUse": "en 資金用途",
   "register_check_1": "en 我已閱讀並同意 使用條款",
-  "register_check_2": "en 我知道易借網只有經營平台廣告，任何號稱是[易借]或[易借網]人員的電話或LINE通知我借款的都是詐騙。詳見 FAQ"
+  "register_check_2": "en 我知道易借網只有經營平台廣告，任何號稱是[易借]或[易借網]人員的電話或LINE通知我借款的都是詐騙。詳見 FAQ",
+  "login_title": "us 登入會員",
+  "login_title_1": "us  還沒有加入借錢會員?",
+  "login_title_1_des": "us  我需要借錢、找資金、找金主.",
+  "login_title_2": "us  還沒加入金主會員?",
+  "login_title_2_des": "us  我要放款、賺利息、找借錢客戶.",
+  "register_1": "us 免費加入借錢會員",
+  "register_2": "us 加入金主會員",
+  "register_title_2": "us 我要借錢，不是金主",
+  "register_title_2_des": "us 如果您需要資金，要找金主借錢，請改註冊免費借錢會員。"
 }

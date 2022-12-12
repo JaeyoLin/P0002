@@ -72,5 +72,12 @@
   "register_1": "us 免費加入借錢會員",
   "register_2": "us 加入金主會員",
   "register_title_2": "us 我要借錢，不是金主",
-  "register_title_2_des": "us 如果您需要資金，要找金主借錢，請改註冊免費借錢會員。"
+  "register_title_2_des": "us 如果您需要資金，要找金主借錢，請改註冊免費借錢會員。",
+  "i_load_money_1": "us 付費刊登放款廣告，找客戶",
+  "i_load_money_1_des": "us 不接受電信遊戲點數、刷卡門號換現金類業者註冊",
+  "company_name": "us 營業名稱",
+  "max_load_monet": "us 單筆最高可放貸金額(單位:元)",
+  "ad_title": "us 借出廣告標題",
+  "simple_remark": "us 簡單說明",
+  "register_2_btn": "us 註冊金主"
 }

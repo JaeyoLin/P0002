@@ -15,8 +15,14 @@ $(function() {
   // Money Requirements 初始化
   moneyRequirementInit();
 
+  // Login Validate Init
+  loginValidateInit();
+
   // Register Validate Init
   registerValidateInit();
+
+  // Register 1 Validate Init
+  register1ValidateInit();
 
   $('.slideImageWrapper').slick({
     dots: false,
@@ -299,6 +305,96 @@ function moneyRequirementInit() {
 
   if ($("#registerForm").exists()) {
     var validator = $("#registerForm").validate(config);
+
+    validator.resetForm();
+    $(".error").removeClass("error");
+  }
+}
+
+/**
+ * register1ValidateInit
+ * Register 1 Validate Init
+ * 
+ */
+ function register1ValidateInit() {
+  var config = {
+    errorPlacement: function(error, element) {
+			// Append error within linked label
+			$( element )
+				.closest( "form" )
+        .find( "div[id='" + element.attr( "id" ) + "_box']" )
+					// .find( "label[for='" + element.attr( "id" ) + "']" )
+						.append( error );
+		},
+    // errorElement: "div",
+    // lang: 'vi',
+    rules: {
+      account: {
+        required: true,
+        email: true,
+      },
+      password: {
+        required: true,
+        minlength: 8,
+      },
+      company_name: {
+        required: true,
+      },
+      mobile_phone: {
+        required: true,
+      },
+      max_load_monet: {
+        required: true,
+        number: true,
+      },
+    },
+    submitHandler: function(form) {
+      console.log('TODO', 'Register 1');
+    }
+  };
+
+  if ($("#registerForm_1").exists()) {
+    var validator = $("#registerForm_1").validate(config);
+
+    validator.resetForm();
+    $(".error").removeClass("error");
+  }
+}
+
+/**
+ * loginValidateInit
+ * Login Validate Init
+ * 
+ */
+ function loginValidateInit() {
+  var config = {
+    errorPlacement: function(error, element) {
+			// Append error within linked label
+			$( element )
+				.closest( "form" )
+        .find( "div[id='" + element.attr( "id" ) + "_box']" )
+					// .find( "label[for='" + element.attr( "id" ) + "']" )
+						.append( error );
+		},
+    // errorElement: "div",
+    // lang: 'vi',
+    rules: {
+      account: {
+        required: true,
+        email: true,
+      },
+      password: {
+        required: true,
+        minlength: 8,
+      },
+    },
+    submitHandler: function(form) {
+      console.log('TODO', 'Login');
+    }
+  };
+
+  if ($("#loginForm").exists()) {
+    var validator = $("#loginForm").validate(config);
 
     validator.resetForm();
     $(".error").removeClass("error");
